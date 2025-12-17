@@ -550,7 +550,7 @@ export default function Portfolio() {
                 B.Tech in Information Technology
               </p>
               <p className="text-sm text-slate-500 dark:text-slate-400 mt-1">
-                (2023–2027)
+                (2024–2028)
               </p>
               <p className="text-md mt-4">
                 Current GPA:{" "}
