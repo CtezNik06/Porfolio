@@ -374,10 +374,10 @@ export default function Portfolio() {
             {[
               {
                 name: "LeetCode",
-                user: "gargpb31",
-                rating: "1981 (Knight)",
+                user: "IHCahCIeOi",
+                rating: "1982 (Knight)",
                 logo: "/leetcode.png",
-                link: "https://leetcode.com/gargpb31",
+                link: "https://leetcode.com/u/IHCahCIeOi/",
                 color: "text-yellow-500",
                 hoverColor: "hover:text-yellow-400",
               },
@@ -554,7 +554,7 @@ export default function Portfolio() {
               </p>
               <p className="text-md mt-4">
                 Current GPA:{" "}
-                <span className="font-bold gradient-text">8.39</span>
+                <span className="font-bold gradient-text">8.88</span>
               </p>
             </div>
           </MotionDiv>
