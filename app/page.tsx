@@ -81,7 +81,7 @@ const projects: Project[] = [
 
         <>
 
-          EchoBreaker is a modern news aggregation platform designed to revolutionize how users consume information. Moving away from traditional static lists, it introduces a "News Reels" interface that delivers bite-sized, full-screen news cards in a smooth, infinite-scrolling feed running at 60fps.
+          EchoBreaker is a modern news aggregation platform designed to revolutionize how users consume information. Moving away from traditional static lists, it introduces a &quot;News Reels&quot; interface that delivers bite-sized, full-screen news cards in a smooth, infinite-scrolling feed running at 60fps.
 
         </>
 
