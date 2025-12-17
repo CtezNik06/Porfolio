@@ -44,78 +44,86 @@ type Project = {
 };
 
 const projects: Project[] = [
-  {
-    title: "SecureVault: Full-Stack Password Manager",
-    desc: (
-      <>
-        A comprehensive security solution featuring a user dashboard and browser
-        extension. Implements robust AES encryption for stored credentials and
-        supports auto-fill functionality. Includes dedicated sections for Wi-Fi
-        passwords and credit cards, plus a secure random password generator.
-      </>
-    ),
-    tech: ["Next.js", "Tailwind CSS", "React", "TypeScript", "MongoDB"],
-    image: "/securevault.png",
-    github: "https://github.com/gargpb31/SecureVault",
-    live: "https://secure-vault-one.vercel.app/",
-  },
-  {
-    title: "Campus Trade: A Buy & Sell Platform",
-    desc: (
-      <>
-        A hyper-local marketplace designed for students to securely buy, sell,
-        and exchange items within their campus community. The platform
-        prioritizes ease of use and safety, creating a convenient hub for
-        student commerce.
-      </>
-    ),
-    tech: ["Node.js", "EJS", "HTML/CSS", "MySQL"],
-    image: "/campustrade.png",
-    github: "https://github.com/gargpb31/Campus-Trade",
-  },
-  {
-    title: "Edutech: An E-Learning Platform",
-    desc: (
-      <>
-        An interactive e-learning platform with curated content for DSA and ML.
-        Features a custom-built code sandbox with a live coding editor,
-        real-time output rendering, and syntax highlighting for an immersive
-        learning experience.
-      </>
-    ),
-    tech: ["JavaScript", "Bootstrap", "React"],
-    image: "/Eduteck.png",
-    github: "https://github.com/gargpb31/Edutech",
-  },
-  {
-    title: "Polygon Area Calculator",
-    desc: (
-      <>
-        A high-performance Java desktop application that accurately computes the
-        area of any polygon given its coordinate points. Built with Java Swing
-        and AWT, it leverages geometric formulas for fast calculations within a
-        clean, intuitive user interface.
-      </>
-    ),
-    tech: ["Java", "Java Swing", "Java AWT", "OOM"],
-    image: "/poly.png",
-    github: "https://github.com/gargpb31/Polygon-Area-Calculator",
-  },
-  {
-    title: "Personal Portfolio Website",
-    desc: (
-      <>
-        The very site you are on now! A personal showcase of my skills,
-        projects, and journey as a developer. Built with a focus on modern
-        design, smooth animations, and a clean user experience using Next.js and
-        Framer Motion.
-      </>
-    ),
-    tech: ["React", "TypeScript", "Next.js", "Tailwind CSS", "Framer Motion"],
-    image: "/portfolio.png",
-    github: "https://github.com/gargpb31/Portfolio",
-    live: "https://portfolio-sunny-gargs-projects.vercel.app/",
-  },
+
+    {
+
+      title: "Polygon Area Calculator",
+
+      desc: (
+
+        <>
+
+          A high-performance Java desktop application that accurately computes the
+
+          area of any polygon given its coordinate points. Built with Java Swing
+
+          and AWT, it leverages geometric formulas for fast calculations within a
+
+          clean, intuitive user interface.
+
+        </>
+
+      ),
+
+      tech: ["Java", "Java Swing", "Java AWT", "OOM"],
+
+      image: "/poly.png",
+
+      github: "https://github.com/CtezNik06/Polygon-Area-Calculator",
+
+    },
+
+    {
+
+      title: "EchoBreaker- AI News Aggregator",
+
+      desc: (
+
+        <>
+
+          EchoBreaker is a modern news aggregation platform designed to revolutionize how users consume information. Moving away from traditional static lists, it introduces a "News Reels" interface that delivers bite-sized, full-screen news cards in a smooth, infinite-scrolling feed running at 60fps.
+
+        </>
+
+      ),
+
+      tech: ["Dart", "Flutter", "REST APIS"],
+
+      image: "/EchoBreaker.png",
+
+      github: "https://github.com/CtezNik06/Echo_Breaker",
+
+      live: "https://play.google.com/store/apps/details?id=com.appecho.app"
+
+    },
+
+    {
+
+      title: "Personal Portfolio Website",
+
+      desc: (
+
+        <>
+
+          The very site you are on now! A personal showcase of my skills,
+
+          projects, and journey as a developer. Built with a focus on modern
+
+          design, smooth animations, and a clean user experience using Next.js and
+
+          Framer Motion.
+
+        </>
+
+      ),
+
+      tech: ["React", "TypeScript", "Next.js", "Tailwind CSS", "Framer Motion"],
+
+      image: "/portfolio.png",
+
+      github: "https://github.com/CtezNik06/Porfolio",
+
+    },
 ];
 
 const sectionVariants: Variants = {
@@ -150,12 +158,12 @@ export default function Portfolio() {
           className="text-xl font-bold gradient-text"
           whileHover={{ scale: 1.05 }}
         >
-          Sunny Garg
+          Nikhil Goyal
         </motion.h1>
         <div className="flex items-center space-x-4">
           <ThemeToggle />
           <motion.a
-            href="https://linkedin.com/in/gargpb31"
+            href="https://www.linkedin.com/in/nikhil-goyal-062a00314/"
             target="_blank"
             rel="noopener noreferrer"
             className="p-2 rounded-full bg-slate-200/50 dark:bg-slate-700/50 hover:bg-slate-300/50 dark:hover:bg-slate-600/50 transition-all duration-300"
@@ -168,7 +176,7 @@ export default function Portfolio() {
             />
           </motion.a>
           <motion.a
-            href="https://github.com/gargpb31"
+            href="https://github.com/CtezNik06"
             target="_blank"
             rel="noopener noreferrer"
             className="p-2 rounded-full bg-slate-200/50 dark:bg-slate-700/50 hover:bg-slate-300/50 dark:hover:bg-slate-600/50 transition-all duration-300"
@@ -196,7 +204,7 @@ export default function Portfolio() {
               className="text-5xl md:text-7xl font-bold leading-tight"
               variants={itemVariants}
             >
-              <span className="gradient-text">Sunny Garg</span>
+              <span className="gradient-text">Nikhil Goyal</span>
             </MotionH1>
             <MotionP
               className="text-xl md:text-2xl font-medium mt-4 text-slate-600 dark:text-slate-300"
@@ -218,7 +226,7 @@ export default function Portfolio() {
               variants={itemVariants}
             >
               <motion.a
-                href="Sunny_Garg_Resume.pdf"
+                href="Nikhil_Goyal_Resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-primary inline-flex items-center justify-center gap-2"
@@ -247,7 +255,7 @@ export default function Portfolio() {
               <div className="absolute inset-0 bg-gradient-to-r from-indigo-500 to-purple-500 rounded-full blur-2xl opacity-20 animate-pulse"></div>
               <Image
                 src="/pic.jpeg"
-                alt="Sunny Garg"
+                alt="Nikhil Goyal"
                 width={320}
                 height={320}
                 className="relative w-64 h-64 md:w-80 md:h-80 object-cover rounded-full border-4 border-slate-200 dark:border-slate-700 shadow-2xl"
@@ -271,22 +279,7 @@ export default function Portfolio() {
             className="max-w-4xl mx-auto text-slate-600 dark:text-slate-300 text-lg leading-relaxed"
             variants={itemVariants}
           >
-            I am Sunny Garg, a passionate and driven 3rd-year B.Tech student at
-            IIIT Allahabad, currently pursuing Information Technology. With a
-            strong foundation in Data Structures and Algorithms (DSA) and a deep
-            interest in Competitive Programming, I&apos;ve successfully solved
-            1200+ DSA problems across platforms like LeetCode, Codeforces, and
-            CodeChef. My achievements include securing a Global Rank of 1490 in
-            Meta Hacker Cup, showcasing my problem-solving skills on an
-            international stage. Beyond academics, I actively engage in
-            technical development and leadership roles. I serve as an Executive
-            Member of the Apparoksha (Technical Fest) (APK) and EFFERVESCENCE
-            (Cultural Fest) (EFFe), where I contribute to organizing coding
-            contests, tech events, and fostering a vibrant programming culture
-            on campus. I enjoy working in collaborative team environments, and
-            my passion lies in solving real-world problems through scalable,
-            impactful tech solutions. I am constantly seeking opportunities to
-            learn, grow, and contribute meaningfully to the tech community.
+            I am Nikhil Goyal, a 2nd year student at IIIT Allahabad and an avid Competitive Programmer. Having solved 1,000+ DSA problems across major global platforms, I combine technical discipline with leadership. As an Executive Member of the Gravity Technical Society, I help lead the campus competitive coding community. I am passionate about leveraging technology to create scalable solutions and am constantly looking to collaborate and grow within the tech ecosystem.
           </MotionDiv>
         </MotionSection>
 
@@ -393,7 +386,7 @@ export default function Portfolio() {
                   <div className="bg-gradient-to-br from-orange-100 to-yellow-100 dark:from-orange-900/30 dark:to-yellow-900/30 border-2 border-orange-300 dark:border-orange-600 rounded-2xl p-4 overflow-hidden shadow-xl">
                     <Image
                       src="/grid.jpeg"
-                      alt="Sunny Garg - National Winner Flipkart Grid 7.0"
+                      alt="Nikhil Goyal - National Winner Flipkart Grid 7.0"
                       width={600}
                       height={400}
                       className="w-full h-64 md:h-80 object-cover rounded-xl"
@@ -508,19 +501,19 @@ export default function Portfolio() {
               },
               {
                 name: "Codeforces",
-                user: "gargpb31",
-                rating: "1648 (Expert)",
+                user: "goyalnikhil744",
+                rating: "1621 (Expert)",
                 logo: "/codeforces.png",
-                link: "https://codeforces.com/profile/gargpb31",
+                link: "https://codeforces.com/profile/goyalnikhil744",
                 color: "text-cyan-500",
                 hoverColor: "hover:text-cyan-400",
               },
               {
                 name: "CodeChef",
-                user: "gargpb31",
-                rating: "2008 (5 Star)",
+                user: "fever_tub_71",
+                rating: "1805 (4 star)",
                 logo: "/codechef.png",
-                link: "https://www.codechef.com/users/gargpb31",
+                link: "https://www.codechef.com/users/fever_tub_71",
                 color: "text-green-500",
                 hoverColor: "hover:text-green-400",
               },
@@ -695,28 +688,28 @@ export default function Portfolio() {
               </h2>
               <div className="bg-white/50 dark:bg-slate-800/50 border border-slate-200/50 dark:border-slate-700/50 rounded-2xl p-8 w-full max-w-md space-y-5 shadow-lg">
                 <motion.a
-                  href="mailto:sunnygarg887@gmail.com"
+                  href="mailto:goyalnikhil744@gmail.com"
                   className="flex items-center gap-4 text-slate-700 dark:text-slate-300 hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors group"
                   whileHover={{ x: 4 }}
                 >
                   <FiMail className="w-5 h-5 text-slate-500 group-hover:text-indigo-500 transition-colors" />
-                  <span>sunnygarg887@gmail.com</span>
+                  <span>goyalnikhil744@gmail.com</span>
                 </motion.a>
                 <motion.a
-                  href="mailto:dev.sunny995@gmail.com"
+                  href="mailto:goyalnikhil744744@gmail.com"
                   className="flex items-center gap-4 text-slate-700 dark:text-slate-300 hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors group"
                   whileHover={{ x: 4 }}
                 >
                   <FiMail className="w-5 h-5 text-slate-500 group-hover:text-indigo-500 transition-colors" />
-                  <span>dev.sunny995@gmail.com</span>
+                  <span>goyalnikhil744744@gmail.com</span>
                 </motion.a>
                 <div className="flex items-center gap-4 text-slate-700 dark:text-slate-300">
                   <FiPhone className="w-5 h-5 text-slate-500" />
-                  <span>+91 6280751806</span>
+                  <span>+91 6280567827</span>
                 </div>
                 <div className="pt-4">
                   <motion.a
-                    href="Sunny_Garg_Resume.pdf"
+                    href="Nikhil_Goyal_Resume.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="w-full text-center btn-primary flex items-center justify-center gap-2"
@@ -734,7 +727,7 @@ export default function Portfolio() {
 
       {/* Footer */}
       <footer className="text-center py-8 px-6 md:px-12 border-t border-slate-200/50 dark:border-slate-700/50 text-slate-500 dark:text-slate-400">
-        <p>© {new Date().getFullYear()} Sunny Garg. All Rights Reserved.</p>
+        <p>© {new Date().getFullYear()} Nikhil Goyal. All Rights Reserved.</p>
         <p className="text-sm mt-1">
           Built with Next.js, Tailwind CSS, and Framer Motion.
         </p>

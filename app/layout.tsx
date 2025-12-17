@@ -14,9 +14,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Sunny Garg - Portfolio",
+  title: "Nikhil Goyal - Portfolio",
   description:
-    "Personal portfolio of Sunny Garg - Competitive Programmer & Full-Stack Developer",
+    "Personal portfolio of Nikhil Goyal - Competitive Programmer & Full-Stack Developer",
   keywords: [
     "portfolio",
     "developer",
@@ -25,12 +25,12 @@ export const metadata: Metadata = {
     "react",
     "next.js",
   ],
-  authors: [{ name: "Sunny Garg" }],
-  creator: "Sunny Garg",
+  authors: [{ name: "Nikhil Goyal" }],
+  creator: "Nikhil Goyal",
   openGraph: {
-    title: "Sunny Garg - Portfolio",
+    title: "Nikhil Goyal - Portfolio",
     description:
-      "Personal portfolio of Sunny Garg - Competitive Programmer & Full-Stack Developer",
+      "Personal portfolio of Nikhil Goyal - Competitive Programmer & Full-Stack Developer",
     type: "website",
   },
 };
